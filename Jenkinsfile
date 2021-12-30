@@ -1,7 +1,7 @@
-node{
+node('master'){
     def MHD = tool name: "maven3.8.4"
     stage('code'){
-        git branch: 'dev', url: 'https://github.com/Donritchie-E/web-app'
+        git branch: 'master', url: 'https://github.com/Donritchie-E/web-app'
     }
     stage('BUILD'){
        sh "${MHD}/bin/mvn clean package"
