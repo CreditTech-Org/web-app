@@ -15,7 +15,13 @@
 		<name>Landmark Technologies</name>
 		<url>http://landmarktechnologies.com/</url>
 	</organization>
-
+       <repositories>
+		<repository>
+	      <id>nexus</id>
+	      <name>Proxy Repo</name>
+	      <url>http://34.217.214.122:8081/repository/maven-proxy-repo/</url>
+	    </repository>
+	</repositories>
 	<properties>
 		<jdk.version>1.8</jdk.version>
 		<spring.version>5.1.2.RELEASE</spring.version>
