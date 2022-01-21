@@ -102,14 +102,14 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Td-release</name>
-	      <url>http://34.217.214.122:8081/repository/Td-release/</url>
+	      <name>ebay-release</name>
+	      <url>http://44.202.132.65:8000/repository/ebay-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Td-snapshot</name>
-	      <url>http://34.217.214.122:8081/repository/Td-snapshot/</url>
+	      <name>ebay-snapshot</name>
+	      <url>http://44.202.132.65:8000/repository/ebay-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
